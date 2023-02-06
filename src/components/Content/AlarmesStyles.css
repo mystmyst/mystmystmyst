@@ -1,0 +1,9 @@
+.alarmes {
+  display: flex;
+
+  width: 600px;
+  height: 960px;
+  color: #ffffff;
+  justify-content: center;
+  padding-top: 64px;
+}

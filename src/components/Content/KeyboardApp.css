@@ -1,0 +1,15 @@
+.keyboard {
+  display: flex;
+  width: auto;
+  position: fixed;
+  overflow: visible;
+  bottom: 0%;
+}
+.keyboard-hide {
+  display: none;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+.simple-keyboard {
+  width: 90vh;
+}

@@ -1,0 +1,10 @@
+.info {
+  display: flex;
+
+  width: 600px;
+  height: 960px;
+  background-color: #b60064;
+  color: #ffffff;
+  justify-content: center;
+  padding-top: 64px;
+}

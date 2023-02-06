@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+.App {
+  display: flex;
+  position: relative;
+  font-family: sans-serif;
+  text-align: center;
+}

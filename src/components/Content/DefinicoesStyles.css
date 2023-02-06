@@ -1,0 +1,96 @@
+.definicoes {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 185px;
+  column-gap: 25px;
+  width: 600px;
+  height: 960px;
+  color: #ffffff;
+
+  z-index: 0;
+  position: relative;
+  margin: 25px;
+}
+.defButtons {
+  display: flex;
+  justify-content: left;
+  margin: 0 0 10px;
+  color: #000000;
+}
+
+div.purpleHorizon {
+  width: 500px;
+  text-align: left;
+  border-collapse: collapse;
+}
+.divTable.purpleHorizon .divTableCell,
+.divTable.purpleHorizon .divTableHead {
+  padding: 10px 2px;
+}
+.divTable.purpleHorizon .divTableBody .divTableCell {
+  font-size: 16px;
+  font-weight: bold;
+  color: #272d2d;
+}
+
+.divTable.purpleHorizon .divTableHeading {
+  border-bottom: 2px solid rgb(66, 117, 104);
+}
+.divTable.purpleHorizon .divTableHeading .divTableHead {
+  font-size: 19px;
+  font-weight: bold;
+  color: #272d2d;
+  text-align: left;
+}
+.divTable.purpleHorizon .divTableHeading .divTableHead:first-child {
+  border-left: none;
+}
+
+/* DivTable.com */
+.divTable {
+  display: table;
+}
+.divTableRow {
+  display: table-row;
+}
+.divTableHeading {
+  display: table-header-group;
+}
+.divTableCell,
+.divTableHead {
+  display: table-cell;
+}
+.divTableHeading {
+  display: table-header-group;
+}
+.divTableFoot {
+  display: table-footer-group;
+}
+.divTableBody {
+  display: table-row-group;
+}
+.deftab {
+  display: flex;
+  justify-content: center;
+}
+.usuarios {
+  display: flex;
+  flex-direction: column;
+
+  margin: 30px 0;
+}
+.userIcon {
+  margin: 0 8px;
+  padding: 10px;
+  background-color: #5aaa95;
+  border-radius: 5px;
+}
+.userIcon:hover {
+  background-color: rgb(66, 117, 104);
+}
+.userIcon svg {
+  fill: #edf5fc;
+}
